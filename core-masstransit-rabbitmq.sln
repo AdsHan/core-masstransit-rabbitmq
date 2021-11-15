@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{237D8C99-62B6-48E4-BE28-EC82BF967408}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{912372EE-36CE-4610-A905-409695AB091F}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker_infrastructure.yml = docker\docker_infrastructure.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{184EC398-A15F-4110-A9AC-9D93576F042E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{9B23D83F-253F-4A7D-A16E-AB3D2BD6677B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingMassTransit.MessageBus", "src\MessagingMassTransit.MessageBus\MessagingMassTransit.MessageBus.csproj", "{CC3A8999-5C78-4BC1-B53E-C822FB63FD9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingMassTransit.Consumer", "src\MessagingMassTransit.Consumer\MessagingMassTransit.Consumer.csproj", "{03584680-D3A6-4B2B-9394-FA894E4F9B02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingMassTransit.Publisher", "src\MessagingMassTransit.Publisher\MessagingMassTransit.Publisher.csproj", "{8FD3AECD-A056-4A8A-882B-7C76C4170DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC3A8999-5C78-4BC1-B53E-C822FB63FD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3A8999-5C78-4BC1-B53E-C822FB63FD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3A8999-5C78-4BC1-B53E-C822FB63FD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3A8999-5C78-4BC1-B53E-C822FB63FD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03584680-D3A6-4B2B-9394-FA894E4F9B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03584680-D3A6-4B2B-9394-FA894E4F9B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03584680-D3A6-4B2B-9394-FA894E4F9B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03584680-D3A6-4B2B-9394-FA894E4F9B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD3AECD-A056-4A8A-882B-7C76C4170DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD3AECD-A056-4A8A-882B-7C76C4170DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD3AECD-A056-4A8A-882B-7C76C4170DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD3AECD-A056-4A8A-882B-7C76C4170DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{184EC398-A15F-4110-A9AC-9D93576F042E} = {237D8C99-62B6-48E4-BE28-EC82BF967408}
+		{9B23D83F-253F-4A7D-A16E-AB3D2BD6677B} = {237D8C99-62B6-48E4-BE28-EC82BF967408}
+		{CC3A8999-5C78-4BC1-B53E-C822FB63FD9D} = {9B23D83F-253F-4A7D-A16E-AB3D2BD6677B}
+		{03584680-D3A6-4B2B-9394-FA894E4F9B02} = {184EC398-A15F-4110-A9AC-9D93576F042E}
+		{8FD3AECD-A056-4A8A-882B-7C76C4170DA3} = {184EC398-A15F-4110-A9AC-9D93576F042E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A5EB51-98BF-466E-8552-EA31D491BDFD}
+	EndGlobalSection
+EndGlobal
