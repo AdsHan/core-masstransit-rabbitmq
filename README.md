@@ -6,9 +6,9 @@ Demonstração da utilização do MassTransit em conjunto com o RabbitMQ. Foi cr
 - RabbitMQ;
 
 # Como executar:
-Clonar / baixar o repositório em seu workplace.
-Baixar o .Net Core SDK e o Visual Studio / Code mais recentes.
-A infraestrutura da aplicação será criada através do docker compose /docker/docker_infrastructure.yml.
+- Clonar / baixar o repositório em seu workplace.
+- Baixar o .Net Core SDK e o Visual Studio / Code mais recentes.
+- A infraestrutura da aplicação será criada através do docker compose /docker/docker_infrastructure.yml.
 
 
 # Sobre
